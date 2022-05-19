@@ -1,0 +1,120 @@
+body {
+  margin: 0;
+  padding: 0;
+  width: 100%;
+  font-weight: bold;
+  font-family: Arial, Helvetica, sans-serif;
+}
+header {
+  background-color: rgba(1, 10, 15, 0.8);
+  height: 40px;
+  color: #fff;
+  font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+  font-size: 0.8rem;
+  padding-left: 10px;
+  padding-top: 5px;
+  width: 100%;
+}
+h1 {
+  font-size: 1rem;
+}
+
+.container {
+  margin-top: 45px;
+  width: 50%;
+  border: 1px solid rgba(104, 103, 103, 0.1);
+  border-top: 1px solid rgba(95, 93, 93, 0.7);
+  margin-left: 10px;
+  box-sizing: border-box;
+}
+h3 {
+  margin-left: 50px;
+  font-size: 1.6rem;
+  color: rgb(88, 121, 243);
+  margin-top: -12px;
+  background-color: #fff;
+  display: inline-block;
+}
+.form1 input,
+label {
+  display: block;
+  width: 95%;
+  margin-left: 10px;
+  height: 30px;
+}
+label {
+  margin-top: 20px;
+}
+textarea {
+  width: 95%;
+  height: 140px;
+  margin-left: 10px;
+}
+.container2 {
+  margin-top: 45px;
+  width: 50%;
+  border: 1px solid rgba(104, 103, 103, 0.1);
+  border-bottom: 1px solid rgba(95, 93, 93, 0.7);
+  margin-left: 10px;
+  box-sizing: border-box;
+}
+h2 {
+  margin-left: 20px;
+}
+
+.label1,
+.label2,
+.label3,
+.label4,
+.label5 {
+  display: block;
+  margin-left: 10px;
+}
+.label1 input,
+.label2 input,
+.label3 input,
+.label4 input,
+.label5 input {
+  margin: 12px;
+}
+.label3 input,
+.label4 input {
+  width: 95%;
+  height: 40px;
+  margin-top: 2px;
+  margin-bottom: 3px;
+}
+
+select {
+  width: 95%;
+  margin-left: 10px;
+  background-color: rgba(234, 220, 220, 0.5);
+  margin-bottom: 20px;
+}
+
+button {
+  height: 35px;
+  background-color: rgb(29, 159, 29);
+  color: white;
+  border-radius: 7px;
+  width: 140px;
+  margin-bottom: 20px;
+  margin-left: 10px;
+  margin-top: 20px;
+  border: none;
+}
+p {
+  font-size: 1.2rem;
+  font-weight: 400px;
+  margin-left: 10px;
+  margin-bottom: 5px;
+}
+input[type="radio"] {
+  accent-color: rgb(221, 104, 26);
+}
+
+input[type="date"]::-webkit-inner-spin-button,
+input[type="date"]::-webkit-calendar-picker-indicator {
+  display: none;
+  -webkit-appearance: none;
+}

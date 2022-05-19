@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+      <header>
+        <div>
+            <h1>Forms</h1>
+        </div>
+      </header>
+      <div class="container">
+    <main>
+      <h3>Personal Data</h3>
+      <form class="form1">
+          <label for="firstname">First name:</label>
+          <input name="firstname" type="text" id="firstname" required />
+
+          <label for="lastname">Last name: </label>
+          <input name="firstname" type="text" id="firstname" required />
+
+          <label for="street">Street: </label>
+          <input name="street" type="text" id="street" required />
+
+          <label for="zipcode">Zipcode: </label>
+          <input name="zipcode" type="nummer" id="zipcode" required />
+
+          <label for="city">City: </label>
+          <input name="city" type="text" id="city" required />
+
+          <label for="phone">Phone: </label>
+          <input name="phone" type="number" id="phone" required />
+
+          <label for="email">Email: </label>
+          <input name="email" type="email" id="email" required />
+
+          <label for="comments">Comments: </label>
+          <textarea
+            name="comments"
+            id="comments"
+            placeholder="comments"
+          ></textarea>
+         </form>  
+    </main>
+</div>
+
+
+<div class="container2">
+    <main>
+      <h3>Products</h3>
+      <form class="form2">
+          <div class="label1">
+        <p>Web Design:</p>
+          <input type="radio" id="individual" name="webdesign" />Individual
+          <input type="radio" id="template" name="webdesign" />Template</label>
+        </div>
+        <div class="label2">
+        <p>Web Development:</p>
+         <input type="checkbox" id="htmlcss" name="Html&CSS"/>HTML&CSS<br>
+          <input type="checkbox" id="js" name="Javascript">Javascript<br>
+          <input type="checkbox" id="mongo" name="MongoDB"/>MongoDB<br>
+        </div>
+        <div class="label3">
+          <label for="start">Project Start: </label>
+          <input
+            type="date"
+            id="start"
+            name="Project Start"
+            value="2022-05-19"
+            min="2000-01-01"
+            max="2022-05-19"Project Start:
+          />
+        </div>
+        <div class="label4">
+          <label for="end">Project End: </label>
+          <input
+            type="date"
+            id="end"
+            name="Project End"
+            value="2022-05-19"
+            min="2000-01-01"
+            max="2022-05-19"
+          />
+        </div>
+          <div class="label5">
+          <label for="category">Category</label>
+          <select id="category">
+            <option value="">Personal</option>
+            <option value="">Family</option>  </select>
+          </div>
+          </div>
+        
+         </form>  
+        
+    </main>
+    <button type="submit">Order our services</button>
+</body>
+</html>
