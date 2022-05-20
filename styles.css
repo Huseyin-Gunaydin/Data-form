@@ -86,11 +86,12 @@ h2 {
 }
 
 select {
-  width: 95%;
+  width: 96.5%;
   margin-left: 10px;
   background-color: rgba(234, 220, 220, 0.5);
   margin-bottom: 20px;
 }
+
 
 button {
   height: 35px;
@@ -118,3 +119,4 @@ input[type="date"]::-webkit-calendar-picker-indicator {
   display: none;
   -webkit-appearance: none;
 }
+
